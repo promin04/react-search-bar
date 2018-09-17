@@ -13,6 +13,7 @@ npm run check
 
 | Prop                | Type              | Required                                | Description |
 | :-----------------  | :---------------- | :-------------------------------------: | :---------- |
+| value           | _string_         |                                         | default value
 | autoFocus           | _boolean_         |                                         | If `true`, focuses the input when the component loads |
 | delay               | _number_          |                                         | The number of milliseconds to wait after the last key stroke before calling `onChange` |
 | onChange            | _function_        |    &#x2713;                             | Called when input changes |
